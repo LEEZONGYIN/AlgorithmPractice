@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="90171026-832e-4c51-9735-266d38bdbf00" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithm/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/InsertSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,30 +15,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Algorithm/InsertSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="716">
-              <caret line="100" column="19" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
-              <folding>
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algorithm/BubbleSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="32" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -265,7 +241,7 @@
       <workItem from="1573995295188" duration="662000" />
       <workItem from="1574580181802" duration="3542000" />
       <workItem from="1574767089148" duration="1053000" />
-      <workItem from="1574905922054" duration="30612000" />
+      <workItem from="1574905922054" duration="31408000" />
     </task>
     <task id="LOCAL-00001" summary="反转链表输出表头">
       <created>1574767219714</created>
@@ -295,15 +271,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575986348675</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="添加对数器">
+      <created>1575987950825</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575987950825</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83315000" />
+    <option name="totallyTimeSpent" value="84111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="150" width="1938" height="1098" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14914162" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -374,7 +356,8 @@
     <MESSAGE value="反转链表输出表头" />
     <MESSAGE value="合并两个单调递增链表" />
     <MESSAGE value="2019/12/10" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019/12/10" />
+    <MESSAGE value="添加对数器" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加对数器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -663,21 +646,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithm/BubbleSort.java">
+    <entry file="file://$PROJECT_DIR$/src/Algorithm/InsertSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="480">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+          <folding>
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithm/InsertSort.java">
+    <entry file="file://$PROJECT_DIR$/src/Algorithm/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="100" column="19" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
-          <folding>
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>
