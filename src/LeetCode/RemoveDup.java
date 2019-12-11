@@ -12,7 +12,7 @@ public class RemoveDup {
     public static void main(String[] args) {
         String s = "abbace";
 //        char[] chars = s.toCharArray();
-//        Stack<Character> stack = new Stack<>();
+//        StackDef<Character> stack = new StackDef<>();
 //        for (int i=0;i<s.length();i++){
 //            stack.push(chars[i]);
 //        }
