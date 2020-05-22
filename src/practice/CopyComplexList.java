@@ -54,7 +54,7 @@ public class CopyComplexList {
         node2.next = node3;
 
         node1.random = node3;
-        node2.random = node2;
+        node2.random = node1;
         node3.random = null;
 
         CopyComplexList copyComplexList = new CopyComplexList();

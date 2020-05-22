@@ -55,6 +55,10 @@ public class KMP {
         String str2 = "ababa";
 
         KMP kmp = new KMP();
-        System.out.println(kmp.getIndexOf(str1,str2));
+        int[] next = kmp.getNext(str2.toCharArray());
+        for (int i=0;i<next.length;i++) {
+            System.out.print(next[i]+" ");
+        }
+//        System.out.println(kmp.getIndexOf(str1,str2));
     }
 }

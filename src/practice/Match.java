@@ -39,7 +39,7 @@ public class Match {
 
     public static void main(String[] args) {
         Match match = new Match();
-        char[] str = {'a'};
+        char[] str = null;
         char[] par = {'.','*'};
         System.out.println(match.match(str,par));
 

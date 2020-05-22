@@ -39,5 +39,6 @@ public class FindContinuousSequence {
         FindContinuousSequence fcs = new FindContinuousSequence();
         ArrayList<ArrayList<Integer>> lists = fcs.FindContinuousSequence(15);
         System.out.println(lists);
+
     }
 }
