@@ -32,8 +32,8 @@ public class HeapSort {
         while (left<heapSize){
             //比较左右子节点的大小
             //如果存在右节点并且右节点的值大于左节点的值，largest为left-1
-            int largest = (left-1)<heapSize && arr[left-1]>arr[left]?
-                    left-1:left;
+            int largest = (left+1)<heapSize && arr[left+1]>arr[left]?
+                    left+1:left;
             //左右比较的结果和父节点即index比较
             largest = arr[index]>arr[largest]?index:largest;
             //如果index还是最大的值，循环结束
@@ -53,7 +53,7 @@ public class HeapSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = {3,2,1,4,5};
+        int[] arr = {4,9,8,5,6};
         heapSort(arr);
         for (int i=0;i<arr.length;i++){
             System.out.print(arr[i]+" ");

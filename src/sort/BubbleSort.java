@@ -18,15 +18,20 @@ public class BubbleSort {
                 isSorted = false;
             }
             if(isSorted) break;
+            for(int j:temp){
+                System.out.print(j+" ");
+            }
+            System.out.println();
+
         }
         return temp;
     }
 
     public static void main(String[] args) {
-        int[] arr = {1,3,8,2,7,4,5};
+        int[] arr = {25,84,21,47,15,27,68,35,20};
         int[] res = bubbleSort(arr);
-        for (Integer i:res){
-            System.out.println(i);
-        }
+//        for (Integer i:res){
+//            System.out.println(i);
+//        }
     }
 }

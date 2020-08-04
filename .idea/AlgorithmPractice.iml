@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/算法小抄/动态规划" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/回溯" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/算法小抄/高频面试题" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/算法小抄/数据结构" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/算法小抄/算法思维" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
