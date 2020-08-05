@@ -15,11 +15,6 @@ public class QuickSort {
         int j = partition(nums,l,h);
         sort(nums,l,j);
         sort(nums,j+1,h);
-        for(int i:nums){
-            System.out.print(i+" ");
-
-        }
-        System.out.println();;
     }
 
     /**
