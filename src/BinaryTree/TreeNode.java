@@ -1,4 +1,4 @@
-package 二叉树;
+package BinaryTree;
 
 public class TreeNode {
     int val;

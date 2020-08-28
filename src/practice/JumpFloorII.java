@@ -19,6 +19,6 @@ public class JumpFloorII {
 
     public static void main(String[] args) {
         JumpFloorII jf = new JumpFloorII();
-        System.out.println(jf.JumpFloor(3));
+        System.out.println(jf.JumpFloor(4));
     }
 }
