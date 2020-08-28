@@ -23,6 +23,10 @@ public class Sort {
             if (flag){
                 break;
             }
+            for(int k:arr){
+                System.out.print(k+" ");
+            }
+            System.out.println();
         }
     }
 
@@ -122,15 +126,57 @@ public class Sort {
         swap(arr,l,j);
         return j;
     }
+
+    /**
+     * 堆排序
+     * @param
+     */
+
+    public static void heapSort(int[] arr){
+        if(arr.length==0 || arr==null) return;
+        int len = arr.length;
+        buildMaxHeap(arr,len);
+        for(int i=len-1;i>0;i--){
+            swap(arr,0,i);
+            len--;
+            heapify(arr,0,len);
+        }
+    }
+    private static void buildMaxHeap(int[] arr, int len){
+        //从最后一个非叶节点开始向前遍历，调整节点性质，使之成为大顶堆
+        for (int i=(int)Math.floor(len/2)-1;i>=0;i--){
+            heapify(arr,i,len);
+        }
+    }
+    private static void heapify(int[] arr, int i,int len){
+        int left = 2*i+1;
+        int right = 2*i+2;
+        int largest = i;
+        //小堆顶就将>改为<
+        if(left<len && arr[left]>arr[largest]){
+            largest = left;
+        }
+        if(right<len && arr[right]>arr[largest]){
+            largest = right;
+        }
+        if(i != largest){
+            swap(arr,i,largest);
+            //因为互换之后，子节点的值变了，如果该子节点也有自己的子节点，仍需要调整
+            heapify(arr,largest,len);
+        }
+
+    }
+
     public static void main(String[] args) {
         int[] arr = {5,6,9,1,3 ,8 ,4 ,2};
-//        bubleSort(arr);
-//        insertSort(arr);
-//        InsertSort(arr);
-//        MergeSort(arr);
-        QuickSort(arr);
-        for(int i:arr){
-            System.out.print(i+" ");
-        }
+        bubleSort(arr);
+////        insertSort(arr);
+////        InsertSort(arr);
+////        MergeSort(arr);
+////        QuickSort(arr);
+////        heapSort(arr);
+////        for(int i:arr){
+//            System.out.print(i+" ");
+//        }
     }
 }
