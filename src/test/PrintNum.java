@@ -4,7 +4,7 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class PrintNUm {
+public class PrintNum {
     private static Lock lock = new ReentrantLock();
     private static Condition condition1 = lock.newCondition();
     private static Condition condition2 = lock.newCondition();
